@@ -1,0 +1,12 @@
+{
+  "name": "@wormhole-foundation/example-native-token-transfers",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "typechain": "typechain --target=ethers-v5 --out-dir=./ethers-contracts ./out/**/*.json"
+  },
+  "dependencies": {
+    "@typechain/ethers-v5": "^11.1.2",
+    "typechain": "^8.3.2"
+  }
+}
